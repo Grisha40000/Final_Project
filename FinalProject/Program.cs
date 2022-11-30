@@ -19,3 +19,10 @@ for(int i=0;i<n;i++)
     Console.Write(array[i]);
     Console.Write(" ");
 }
+Console.WriteLine(" ");
+NewArray(array,n);
+void NewArray(string[] array,int n)
+{
+    
+}
+
