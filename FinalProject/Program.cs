@@ -25,5 +25,12 @@ void NewArray(string[] array,int n)
 {
     int m=new Random().Next(0,4);
     string[] MyArray=new string[m];
+    for(int j=0;j<MyArray.Length;j++)
+    {
+        int i=new Random().Next(0,n);
+        MyArray[j]=array[i];
+        Console.Write(MyArray[j]);
+        Console.Write(" ");
+    }
 }
 
