@@ -23,6 +23,7 @@ Console.WriteLine(" ");
 NewArray(array,n);
 void NewArray(string[] array,int n)
 {
-    
+    int m=new Random().Next(0,4);
+    string[] MyArray=new string[m];
 }
 
